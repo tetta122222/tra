@@ -60,12 +60,13 @@
         c._ps=b+'/translate_static/css/translateelement.css';
         c._puh='translate.google.com';
         _loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main_ja.js');
+        $(".eng").on('click', function(){
+            c._cl='eng';
+            _loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main_eng.js');
+     
+        });
     })
 
     ();
-    $(".eng").on('click', function(){
-        c._cl='eng';
-        _loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main_eng.js');
- 
-    });
+
 })();
