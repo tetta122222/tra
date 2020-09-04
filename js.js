@@ -43,7 +43,8 @@
     (function(){
         var c=_setupNS('google.translate._const');
         c._cest = gtConstEvalStartTime;gtConstEvalStartTime = undefined;
-        c._cl='ja';c._cuc='googleTranslateElementInit';
+        c._cl='ja';
+        c._cuc='googleTranslateElementInit';
         c._cac='';c._cam='';
         c._ctkk='444219.2982488430';
         var h='translate.googleapis.com';
@@ -60,5 +61,11 @@
         c._puh='translate.google.com';
         _loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main_ja.js');
     })
+
     ();
+    $(".page1").on('click', function(){
+        c._cl='eng';
+        _loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main_eng.js');
+ 
+    });
 })();
