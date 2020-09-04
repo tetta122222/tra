@@ -63,7 +63,7 @@
     })
 
     ();
-    $(".page1").on('click', function(){
+    $(".eng").on('click', function(){
         c._cl='eng';
         _loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main_eng.js');
  
